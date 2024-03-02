@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Gotham";
+  src: url("../font/GothamPro.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: "Gotham";
+  font-weight: normal;
+}
+
+.container {
+  max-width: 1408px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 22px 0;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-navbar {
+  display: flex;
+  list-style: none;
+  gap: 125px;
+}
+.header-navbar__item {
+  font-size: 13px;
+  line-height: 12px;
+  text-decoration: none;
+  color: #000000;
+}/*# sourceMappingURL=style.css.map */
