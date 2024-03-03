@@ -134,7 +134,67 @@ body {
   line-height: 24px;
   color: #C8BB93;
   background: none;
-  border-radius: 100px;
-  border: 1px solid #FFFFFF;
+  border: none;
   margin-left: 100px;
+}
+
+.product {
+  margin-bottom: 270px;
+}
+.product-container {
+  max-width: 1016px;
+  margin: 0 auto;
+}
+.product-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 245px;
+}
+.product-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 186px;
+}
+.product-group__item {
+  display: flex;
+  align-items: center;
+}
+.product-group__info {
+  margin-left: 50px;
+}
+.product-title {
+  margin-top: 55px;
+  width: 208px;
+  font-family: "Gotham";
+  font-size: 15px;
+  line-height: 21px;
+  color: #000000;
+}
+.product-price {
+  margin-top: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 30px;
+  color: #000000;
+}
+.product-button {
+  width: 208px;
+  height: 48px;
+  font-family: "Gotham";
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+  background: none;
+  border-radius: 100px;
+  border: 1px solid #000000;
+}
+.product-button__soon {
+  font-family: "Gotham";
+  font-size: 15px;
+  line-height: 21px;
+  color: #C8BB93;
+  background: none;
+  border: none;
+  padding: 0;
 }/*# sourceMappingURL=style.css.map */
