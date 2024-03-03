@@ -4,6 +4,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Gotham light";
+  src: url("../font/GothamPro-Light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   box-sizing: border-box;
 }
@@ -37,4 +43,53 @@ body {
   line-height: 12px;
   text-decoration: none;
   color: #000000;
+}
+
+.welcome {
+  background-image: url("../img/welocmeBack.png");
+  background-size: cover;
+  background-position: center;
+}
+.welcome-wrapper {
+  padding: 352px 440px;
+}
+.welcome-info {
+  margin-left: 55px;
+  max-width: 400px;
+}
+.welcome-title {
+  margin-top: 35px;
+  width: 400px;
+  font-family: "Gotham light";
+  font-size: 32px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+.welcome-button {
+  margin-top: 65px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.welcome-button__more {
+  width: 87px;
+  font-family: "Gotham light";
+  font-size: 15px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background: none;
+  border: none;
+  margin-right: 30px;
+}
+.welcome-button__buy {
+  width: 208px;
+  height: 48px;
+  font-family: "Gotham light";
+  font-size: 13px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background: none;
+  border-radius: 100px;
+  border: 1px solid #FFFFFF;
+  margin-left: 60px;
 }/*# sourceMappingURL=style.css.map */
