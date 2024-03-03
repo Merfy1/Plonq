@@ -84,7 +84,7 @@ body {
 .welcome-button__buy {
   width: 208px;
   height: 48px;
-  font-family: "Gotham light";
+  font-family: "Gotham";
   font-size: 13px;
   line-height: 24px;
   color: #FFFFFF;
@@ -92,4 +92,49 @@ body {
   border-radius: 100px;
   border: 1px solid #FFFFFF;
   margin-left: 60px;
+}
+
+.plonqx {
+  padding: 200px 0;
+}
+.plonqx-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.plonqx-title {
+  margin-top: 60px;
+  width: 402px;
+  font-family: "Gotham light";
+  font-size: 32px;
+  line-height: 44px;
+  color: #000000;
+}
+.plonqx-button {
+  margin-top: 70px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.plonqx-button__more {
+  width: 87px;
+  font-family: "Gotham";
+  font-size: 15px;
+  line-height: 21px;
+  color: #000000;
+  background: none;
+  border: none;
+  margin-right: 15px;
+}
+.plonqx-button__buy {
+  width: 208px;
+  height: 48px;
+  font-family: "Gotham";
+  font-size: 13px;
+  line-height: 24px;
+  color: #C8BB93;
+  background: none;
+  border-radius: 100px;
+  border: 1px solid #FFFFFF;
+  margin-left: 100px;
 }/*# sourceMappingURL=style.css.map */
