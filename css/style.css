@@ -202,10 +202,6 @@ body {
 .map {
   padding-bottom: 32px;
 }
-.map-container {
-  max-width: 1408px;
-  margin: 0 auto;
-}
 .map-wrapper {
   display: flex;
   flex-direction: column;
@@ -237,10 +233,6 @@ body {
 
 .about {
   padding-bottom: 265px;
-}
-.about-container {
-  max-width: 1408px;
-  margin: 0 auto;
 }
 .about-wrapper {
   display: flex;
@@ -293,4 +285,63 @@ body {
 .plonq {
   width: 298px;
   margin-bottom: 53px;
+}
+
+.footer {
+  padding: 90px 0 58px 0;
+}
+.footer-subscribe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-title {
+  font-family: "Gotham";
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  margin-right: 350px;
+}
+.footer-button {
+  display: flex;
+  gap: 12px;
+}
+.footer-button__ru {
+  background: none;
+  border: none;
+  color: #C8BB93;
+  font-size: 13px;
+  line-height: 21px;
+  font-weight: 600;
+}
+.footer-button__en {
+  background: none;
+  border: none;
+  color: #000000;
+  font-size: 13px;
+  line-height: 21px;
+  font-weight: 600;
+}
+.footer-line {
+  border-right: 2px solid #000000;
+}
+.footer-form {
+  display: flex;
+  justify-content: center;
+}
+.footer-form__input {
+  width: 424px;
+  height: 40px;
+  background-color: #F9F9F9;
+  border: none;
+  margin-right: 25px;
+}
+.footer-form__button {
+  width: 152px;
+  height: 40px;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-size: 13px;
+  line-height: 24px;
+  border-radius: 4px;
 }/*# sourceMappingURL=style.css.map */
