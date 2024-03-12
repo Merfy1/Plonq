@@ -344,4 +344,72 @@ body {
   font-size: 13px;
   line-height: 24px;
   border-radius: 4px;
+}
+.footer-under {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 45px;
+}
+.footer-app {
+  margin-right: 150px;
+}
+.footer-app__ios {
+  display: flex;
+  align-items: center;
+}
+.footer-app__android {
+  display: flex;
+  align-items: center;
+}
+.footer-app__info {
+  margin-left: 15px;
+}
+.footer-app__title {
+  font-family: "Gotham";
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+.footer-info {
+  display: flex;
+}
+.footer-info__title {
+  margin-bottom: 23px;
+}
+.footer-info__more {
+  margin-right: 83px;
+}
+.footer-policy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.sup {
+  margin-right: 45px;
+}
+
+.etc {
+  margin-right: 32px;
+}
+
+.grey {
+  color: #AAAAAA;
+  font-family: "Gotham";
+  font-size: 13px;
+  line-height: 21px;
+  margin-bottom: 17px;
+}
+
+.warning {
+  padding: 87px 0 58px;
+}
+.warning-text {
+  text-align: center;
+  color: #AAAAAA;
+  font-family: "Gotham";
+  font-size: 13px;
+  line-height: 21px;
+  margin-bottom: 17px;
 }/*# sourceMappingURL=style.css.map */
